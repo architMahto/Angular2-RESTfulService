@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
-@Component({ 
+@Component({
   moduleId: module.id,
-  selector: 'app-container',
+  selector: "app-container",
   template: `<router-outlet></router-outlet>`
 })
 export class AppComponent {
-  
+
 }
